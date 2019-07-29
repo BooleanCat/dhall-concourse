@@ -5,5 +5,6 @@ in
 { ImageResource = {
     type   : Text
   , source : Optional JSON
+  , params : Optional JSON
   }
 }
