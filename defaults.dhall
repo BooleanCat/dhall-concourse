@@ -8,4 +8,9 @@ in
   , params = None JSON
   , version = None ( List { mapKey : Text, mapValue : Text } )
   }
+
+, containerLimits = {
+    cpu = None Natural
+  , memory = None Natural
+  }
 }

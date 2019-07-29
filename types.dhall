@@ -8,4 +8,9 @@ in
   , params  : Optional JSON
   , version : Optional ( List { mapKey : Text, mapValue : Text } )
   }
+
+, ContainerLimits = {
+    cpu    : Optional Natural
+  , memory : Optional Natural
+  }
 }

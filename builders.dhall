@@ -9,4 +9,6 @@ in
     let imageResource : types.ImageResource = defaults.imageResource
       // { type = type }
     in imageResource
+
+, makeContainerLimits = defaults.containerLimits
 }
