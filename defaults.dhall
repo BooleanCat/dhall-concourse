@@ -1,10 +1,11 @@
-let JSON = https://prelude.dhall-lang.org/JSON/package.dhall
+let JSON = https://prelude.dhall-lang.org/JSON/Type
 
 in
 
 { imageResource = {
     type = ""
-  , source = Some JSON.null
-  , params = Some JSON.null
+  , source = None JSON
+  , params = None JSON
+  , version = None ( List { mapKey : Text, mapValue : Text } )
   }
 }
